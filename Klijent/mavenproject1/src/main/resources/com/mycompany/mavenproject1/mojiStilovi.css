@@ -1,0 +1,46 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 27, 2024, 10:24:45 AM
+    Author     : Rale
+*/
+@import url('treeview.css');
+@import url('tabele.css');
+@import url('tabovi.css');
+@import url('padajuciMeni.css');
+@import url('skrol.css');
+
+
+.grid {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-padding: 5;   
+}
+.text-field {
+    -fx-background-color: #777777;
+    -fx-border-radius: 0;
+    -fx-padding: 5;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+}
+.label {
+    -fx-text-fill: white; /* Set label font color to white */
+    -fx-font-weight: bold;  /* Set label font weight to bold */
+    -fx-font-size: 16px;
+}
+.button {
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-background-color: #333333;
+    -fx-border-radius: 0;
+    -fx-spacing: 5px;
+}
+.button:hover {
+    -fx-background-color: #444444;
+}
+.button:pressed {
+    -fx-background-color: #0078d4;
+}
+

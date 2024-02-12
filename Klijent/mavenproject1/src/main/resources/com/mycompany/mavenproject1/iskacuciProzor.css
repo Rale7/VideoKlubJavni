@@ -1,0 +1,38 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 28, 2024, 3:32:35 PM
+    Author     : Rale
+*/
+
+.dialog-pane {
+    -fx-background-color: #333333;
+}
+.dialog-pane .header-panel {
+    -fx-background-color: #555555;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;    
+}
+.dialog-pane .content {
+    -fx-background-color: #555555;
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+}
+.dialog-pane .button-bar {
+    -fx-background-color: #555555;
+}
+.button {
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-background-color: #333333;
+    -fx-border-radius: 0;
+    -fx-spacing: 5px;
+}
+.button:hover {
+    -fx-background-color: #444444;
+}
+.button:pressed {
+    -fx-background-color: #0078d4;
+}

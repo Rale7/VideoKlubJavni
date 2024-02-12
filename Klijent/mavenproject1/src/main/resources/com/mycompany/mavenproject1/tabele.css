@@ -1,0 +1,64 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 27, 2024, 11:10:13 AM
+    Author     : Rale
+*/
+
+.table-view {
+    -fx-control-inner-background: #333333; /* Background color of the cells */
+    -fx-selection-bar: #0078d4; /* Color of the selected row */
+    -fx-selection-bar-non-focused: #0078d4; /* Color of the selected row when the TableView is not focused */
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-color: #333333;
+}
+
+.table-column {
+    -fx-text-fill: #ffffff; /* Text color of the column headers */
+    -fx-text-fill: 16px;
+}
+
+.table-row-cell {
+    -fx-table-cell-border-color: transparent;
+}
+
+/* Style the alternating row colors */
+.table-row-cell:odd {
+    -fx-background-color: #444444;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #0078d4; /* Color of the selected cell */
+    -fx-table-cell-border-color: transparent;
+}
+
+.table-cell {
+    -fx-text-fill: #ffffff; /* Text color of the cells */
+    -fx-font-size: 15px;
+}
+
+.table-view .column-header,
+.table-view .filler {
+    -fx-background-color: #222222; /* Background color of column headers */
+    -fx-pref-height: 34;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #333333; /* Background color behind column headers */
+    -fx-table-cell-border-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #ffffff; /* Text color of column headers */
+    -fx-alignment: CENTER_LEFT;
+}
+
+/* Hover effect for column headers */
+.table-view .column-header:hover {
+    -fx-background-color: #555555; /* Hover background color */
+}
+

@@ -1,0 +1,71 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 27, 2024, 10:33:53 AM
+    Author     : Rale
+*/
+
+.tree-view {
+    -fx-background-color: #333333;
+}
+
+.tree-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 0em 0em 0em 0em ;
+    -fx-indent: 0;
+}
+
+.tree-cell:sub-tree-item {
+    -fx-padding: 0em ;
+}
+
+.tree_cell .label {
+    -fx-alignment: CENTER_LEFT;
+}
+
+.tree-cell:hover {
+    -fx-background-color: #444444;
+}
+
+.tree-cell:selected {
+    -fx-background-color: #0078d4;
+    -fx-background-insets: 0;
+}
+
+.tree-cell:filled:selected {
+    -fx-background-color: #0078d4;
+    -fx-text-fill: white;
+    -fx-background-insets: 0;
+}
+
+/* Customizing TreeItem Content */
+.tree-cell > .tree-disclosure-node {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+}
+
+.tree-cell:expanded > .tree-disclosure-node {
+    -fx-background-color: transparent;
+}
+
+.tree-cell:expanded > .tree-disclosure-node > .arrow {
+    -fx-background-color: white;
+    -fx-shape: "M0,0 L5,5 L10,0 Z";
+}
+
+.tree-cell:collapsed > .tree-disclosure-node > .arrow {
+    -fx-background-color: white;
+    -fx-shape: "M0,0 L10,0 L5,5 Z";
+}
+
+.tree-cell:expanded > .tree-disclosure-node > .arrow:hover {
+    -fx-background-color: white;
+}
+
+.tree-cell:collapsed > .tree-disclosure-node > .arrow:hover {
+    -fx-background-color: white;
+}

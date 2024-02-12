@@ -1,0 +1,40 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 27, 2024, 3:19:13 PM
+    Author     : Rale
+*/
+
+/* Dark Theme Styles for ChoiceBox */
+.choice-box {
+    -fx-background-color: #333333; /* Background color of the choice box */
+    -fx-text-fill: #ffffff; /* Text color of the choice box items */
+    -fx-border-color: #555555; /* Border color of the choice box */
+}
+
+.choice-box:hover {
+    -fx-background-color: #444444; /* Background color on hover */
+}
+
+.choice-box .arrow {
+    -fx-background-color: #555555; /* Color of the dropdown arrow */
+}
+
+.choice-box .context-menu {
+    -fx-background-color: #333333; /* Background color of the dropdown menu */
+}
+
+.choice-box .menu-item {
+    -fx-text-fill: #ffffff; /* Text color of the dropdown menu items */
+}
+
+.choice-box .menu-item:hover {
+    -fx-background-color: #555555; /* Background color of the dropdown menu items on hover */
+}
+
+.choice-box .menu-item:focused {
+    -fx-background-color: #555555; /* Background color of the focused dropdown menu item */
+}
+
